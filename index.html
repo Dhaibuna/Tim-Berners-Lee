@@ -1,58 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
     <title>Tim Berners-Lee</title>
 </head>
+
 <body>
-    <header>
-        <img src="./img/profilePic.jpeg" alt="Profile Picture"/>
-        <h1>Tim Berners Lee</h1>
-    </header>
     <main>
         <section id="biography">
+            <img id="profilePic" src="./img/profilePic.jpeg" alt="Profile Picture" />
+            <h1>Tim Berners Lee</h1>
             <h2>Inventor of HTML</h2>
+            <p>
+                Tim Berners-Lee is the <span>inventor</span> of the web.
+                In 1989, Tim was working in a computing services div of CERN
+                when he came up with the concept; at the time he had no idea it would
+                implemented on such an <span>enormous scale.</span>
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee"> See for yourself </a>
+        </section>
+        <section id="links">
+            <a href="https://www.facebook.com/search/top?q=tim%20berners%20lee"><i
+                    class="fab fa-facebook-f fa-2x"><span>Facebook</span></i></a>
+            <a href="https://www.linkedin.com/in/tim-berners-lee-b41808ab/"><i
+                    class="fab fa-linkedin-in fa-2x"><span>Linkedin</span></i></a>
+            <a href="https://twitter.com/?lang=fr"><i class="fab fa-twitter fa-2x"><span>Twitter</span></i></a>
+        </section>
+        <section id="favoriteMovies">
+            <h2><span>His</span> favorite movies</h2>
+            <div class="film">
+                    <img src="./img/spaceOdyssey.jpeg" alt="Space Odyssey film cover" />
+              <div class="synopsis">
+                    <h3>2001-Space Odyssey</h3>
+                    <p>
+                        Humanity finds a mysterious, obviously artificial, object buried beneath
+                        the Lunar surface and, with the intelligent computer H.A.L. 9000,
+                        sets off on a quest.
+                    </p>
+                </div> 
+            </div>
+            <div class="film">
+                <img src="./img/misterHulot.jpeg" alt="Mister Hulot film cover" />
+                <div class="synopsis">
+                <h3>Monsieur Hulot</h3>
                 <p>
-                    Tim Berners-Lee is the <span>inventor</span> of the web.
-                    In 1989, Tim was working in a computing services section of CERN
-                    when he came up with the concept; at the time he had no idea it would
-                    implemented on such an <span>enormous scale.</span>
+                    Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally
+                    (but good-naturedly) causes havoc.
                 </p>
-                <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee"> See yourself </a>
-        </section id="links">
-        <section>
-            <a href="https://www.facebook.com/search/top?q=tim%20berners%20lee"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.linkedin.com/in/tim-berners-lee-b41808ab/"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://twitter.com/?lang=fr"><i class="fab fa-twitter"></i></a>
+            </div>
+            </div>
+            <div class="film">
+                <img src="./img/alien.jpeg" alt="Alien film cover" />
+                <div class="synopsis">
+                <h3>Alien</h3>
+                <p>
+                    The commercial vessel Nostromo receives a distress call from an unexplored planet.
+                    After searching for survivors, the crew heads home only to realize that a deadly
+                    bioform has join them.
+                </p>
+            </div>
             </div>
         </section>
-
-        <section id="favoriteMovies">
-            <img src="./img/spaceOdyssey.jpeg" alt="Space Odyssey film cover"/>
-            <h3>2001 - Space Odyssey</h3>
-            <p>  
-                Humanity finds a mysterious, obviously artificial, object buried beneath 
-                the Lunar surface and, with the intelligent computer H.A.L. 9000, 
-                sets off on a quest.
-            </p> 
-            <img src="./img/misterHulot.jpeg" alt="Mister Hulot film cover"/>
-            <h3>Monsieur Hulot</h3>
-            <p>
-                Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally
-                (but good-naturedly) causes havoc.
-            </p>
-            <img src="./img/alien.jpeg" alt="Alien film cover"/>
-            <h3>Alien</h3>
-            <p>
-                The commercial vessel Nostromo receives a distress call from an unexplored planet. 
-                After searching for survivors, the crew heads home only to realize that a deadly 
-                bioform has join them
-            </p>
-        </section>
     </main>
-    
 </body>
+
 </html>
